@@ -18,7 +18,25 @@ This project studies how natural selection and sexual reproduction relate to the
 
 ## Status
 
-Implementation is starting. The repository currently holds the proposal and literature review. Simulation code, experiments and usage instructions will follow.
+The first deterministic two-locus implementation is available: a reduced MWUA model and a full joint-frequency model with selection followed by recombination. The example runs both for ten generations and prints genotype and allele frequencies at generations 0, 1 and 10. Exact agreement with the paper's printed tables remains to be checked.
+
+## Run the example
+
+From the repository root (tested with Python 3.9.1):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m experiments.chastain2014
+```
+
+- `evolution/state.py`: allele, fitness and frequency representations.
+- `evolution/update.py`: MWUA, selection and two-locus recombination updates.
+- `experiments/chastain2014.py`: example inputs and model trajectories.
+- `experiments/formatting.py`: shared console table formatting.
+
+The current functions assume normalized input frequencies, a complete genotype dictionary, unique allele IDs across loci, and positive mean fitness. The experiment uses recombination fraction 0.5. A committed automated test suite and finite-population simulations are still planned.
 
 ## Reference
 
