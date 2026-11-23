@@ -14,7 +14,7 @@ This project studies how natural selection and sexual reproduction relate to the
 ## Documents
 
 - [Project proposal](proposal.pdf) — aims, scope and work plan.
-- [Literature review](lit-review.pdf) — background and the connection between evolution, games and MWUA. Browse it online in the [GitHub repository](https://github.com/snowysecrett/algorithms-games-evolution-project/tree/main).
+- [Literature review](lit-review.pdf) — background and the connection between evolution, games and MWUA. Read the [online version](https://snowysecret.com/wiki/algorithms-games-and-evolution).
 
 ## Status
 
