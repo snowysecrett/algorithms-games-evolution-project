@@ -3,6 +3,14 @@
 After ten generations from uniform genotype frequencies, comparing MWUA with selection followed by recombination ($r=0.5000$). Interior cells show genotype frequencies; the margins show allele frequencies.
 All frequencies are rounded to four decimal places for display.
 
+## Fitness landscape
+
+| | $B_1$ | $B_2$ | $B_3$ |
+|---|---:|---:|---:|
+| $A_1$ | $1.0200$ | $1.0300$ | $0.9900$ |
+| $A_2$ | $1.0000$ | $1.0100$ | $0.9800$ |
+| $A_3$ | $1.0100$ | $1.0400$ | $1.0200$ |
+
 ## MWUA - linkage equilibrium
 
 | | $B_1$ | $B_2$ | $B_3$ | Allele frequency |
